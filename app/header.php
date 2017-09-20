@@ -24,9 +24,12 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-	
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css">
 	
 	<link rel="stylesheet" href="css/main.min.css">
 	
@@ -37,6 +40,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
+					<div class="logo"><img src="img/logo/funzigedesigns.svg" alt=""></div>
 					<nav class="has-sub-hover">
 						<?php include"nav.php" ?>
 					</nav>

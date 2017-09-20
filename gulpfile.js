@@ -67,7 +67,7 @@ gulp.task('browser-sync', function() {
     browserSync.init({
 
         // Main dir
-        proxy: "localhost/dough/app/"
+        proxy: "localhost/funzig/app/"
     });
 });
 
