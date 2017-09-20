@@ -1,0 +1,257 @@
+
+////////////////////////////////////////
+//	Header desktop
+////////////////////////////////////////
+
+#header-desktop
+	background: $d-black
+
+
+
+////////////////////////////////////////
+//	Nav desktop
+////////////////////////////////////////
+
+#header-desktop nav
+
+	//
+	// first
+	//
+
+	li
+		position: relative
+		float: left
+
+	a
+		padding: 20px
+		color: $d-white
+	
+	li.has-sub.open > a,
+	a:hover
+		color: $d-main
+
+
+
+	//
+	// second
+	//
+	li.has-sub ul
+		position: absolute
+		width: 200px
+
+	li.has-sub li
+		float: none
+	
+	li a:hover,
+	li.has-sub.open a,
+	li.has-sub ul a
+		background: $d-black2
+
+	li.has-sub ul a
+		padding: 10px 20px
+
+	// second icon
+	li.has-sub li.has-sub > a:after
+		content: "\f10a"
+
+
+
+	//
+	// third
+	//
+	li.has-sub li.has-sub ul
+		left: 200px
+		top: 0
+
+	li.has-sub li a:hover,
+	li.has-sub li.has-sub.open a,
+	li.has-sub li.has-sub ul a
+		background: $d-black4
+
+
+	// third icon
+	li.has-sub li.has-sub li.has-sub > a:after
+		// content: "\f104"
+
+
+
+	//
+	// fourth
+	//
+	li.has-sub li.has-sub li.has-sub ul
+		// position: relative
+		// left: 0
+
+	li.has-sub li.has-sub li a:hover,
+	li.has-sub li.has-sub li.has-sub.open a,
+	li.has-sub li.has-sub li.has-sub ul a
+		background: $d-black6
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////////////////
+//	Header mobile
+////////////////////////////////////////
+
+#header-mobile
+	display: none
+	height: 60px
+	background: $d-black
+	z-index: 90
+
+	.nav-mobile-toggle
+		display: inline-block
+		width: 60px
+		line-height: 60px
+		text-align: center
+		color: $d-main
+		cursor: pointer
+		font-size: 27px
+		float: left
+
+	
+#nav-mobile-container
+	display: none
+	position: fixed
+	top: -100px 			// fixed scroll bug on mobile
+	left: -100%				//
+	padding-top: 100px 		//
+	padding-bottom: 100px 	// 
+	bottom: -100px
+	width: 80%
+	width: calc( 100% - 60px )
+	background: $d-black
+	overflow: auto
+	transition: all 0.2s
+
+	z-index: 100
+
+
+#nav-mobile-backdrop
+	display: none
+	position: fixed
+	top: -100px				// fixed scroll bug on mobile
+	bottom: -100px			//
+	padding-top: 100px 		//
+	padding-bottom: 100px 	// 
+	left: -98%
+	left: calc( -100% + 10px)
+	width: 100%
+	background: rgba($d-black, 0.5)
+	opacity: 0
+	
+	z-index: 95
+
+	&:after
+		font-family: "ionicons"
+		content: "\f129"
+		width: 60px
+		line-height: 60px
+		text-align: center
+		color: rgba($d-white, 0.25)
+		font-size: 27px
+		float: right
+
+// open state
+#nav-mobile-backdrop.open
+	opacity: 1
+	cursor: pointer
+
+#nav-mobile-container.open,
+#nav-mobile-backdrop.open
+	left: 0
+
+
+// Mediaquerie
+// Toggle from desktop to mobile
+@media (max-width: 600px)
+	#header-desktop
+		display: none
+
+	#header-mobile,
+	#nav-mobile-container,
+	#nav-mobile-backdrop
+		display: block
+
+	body.nav-mobile-open
+		overflow: hidden
+
+
+
+
+////////////////////////////////////////
+//	Nav mobile
+////////////////////////////////////////
+
+#nav-mobile-container nav
+
+	//
+	// first
+	//
+	li
+		position: relative
+
+	a
+		padding: 20px
+		color: $d-white
+		text-overflow: ellipsis
+		overflow: hidden
+		white-space: nowrap
+
+	li.has-sub.open > a
+		color: $d-main
+
+
+	// icon
+	li.has-sub > a:after
+		transition: all 0.2s
+
+	li.has-sub.open > a:after
+		transform: rotate(181deg); 
+
+
+
+	//
+	// second
+	//
+	li.has-sub.open a
+		background: $d-black2
+
+	li.has-sub ul a
+		padding-left: 40px
+
+
+
+	//
+	// third
+	//
+	li.has-sub li.has-sub.open a
+		background: $d-black4
+
+	li.has-sub li.has-sub ul a
+		padding-left: 60px
+	
+
+
+	//
+	// fourth
+	//
+	li.has-sub li.has-sub li.has-sub.open a
+		background: $d-black6
+
+	li.has-sub li.has-sub li.has-sub ul a
+		padding-left: 80px
+
+
+
+
