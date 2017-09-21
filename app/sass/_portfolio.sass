@@ -6,27 +6,65 @@
 #wrapper-portfolio
 
 	.portfolio-items
+		display: block
+		margin: 0
+		padding: 0
 
 		.portfolio-item
-			float: right
+			position: relative
+			float: left
+			padding: 0
+			margin: 0
 			width: 28.7%
-			overflow: hidden
-			margin-right: -5%
+			margin-left: -5%
+			display: block
+
+			-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+			-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+			box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
 
 			&:nth-child(1)
-				margin-top: 0
-				margin-right: 0
+				margin-top: 120px
+				margin-left: 0
+				z-index: 40
 
 			&:nth-child(2)
-				margin-top: 40px
+				margin-top: 80px
 				z-index: 30
 
 			&:nth-child(3)
-				margin-top: 80px
+				margin-top: 40px
 				z-index: 20
 
 			&:nth-child(4)
-				margin-top: 120px
+				margin-top: 0
 				z-index: 10
 
+			img
+				// Make imgs wider, remove this line later
+				width: 100%
 
+
+
+@media (max-width: 992px)
+
+	#wrapper-portfolio
+
+		.portfolio-items
+
+			.portfolio-item
+				width: 52.5%
+				margin-left: -10%
+
+				&:nth-child(1)
+					margin-top: 40px
+
+				&:nth-child(2)
+					margin-top: 0
+
+				&:nth-child(3)
+					margin-top: 120px
+					margin-left: 0
+
+				&:nth-child(4)
+					margin-top: 80px

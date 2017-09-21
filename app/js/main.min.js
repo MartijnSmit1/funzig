@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+	////////////////////////////////////////
+	//	Window scroll functions
+	////////////////////////////////////////
+
+	$(window).scroll(function(){
+
+		var wScroll = $(this).scrollTop();
+		// console.log(wScroll)
+
+		if (wScroll <= 2) {
+
+		};
+	});
+
 
 
 	////////////////////////////////////////
@@ -96,6 +110,8 @@ $(document).ready(function() {
 
 
 
+
+
 	////////////////////////////////////////
 	//	Parallax
 	////////////////////////////////////////
@@ -117,15 +133,41 @@ $(document).ready(function() {
 
 
 
+
+
 	////////////////////////////////////////
 	//	Portfolio fade in
 	////////////////////////////////////////
 
-	$(".portfolio-items").each(function(index, el) {
-		console.log("skr")
-		
-	});
+	wow = new WOW 	({
+						boxClass:     'k',      // default
+						animateClass: 'animated', // default
+						offset:       0,          // default
+						mobile:       true,       // default
+						live:         true        // default
+					});
 
+	new WOW().init();
+
+
+
+	////////////////////////////////////////
+	//	Portfolio slider
+	////////////////////////////////////////
+
+   // var mySwiper = new Swiper('.swiper-container', {
+	  //       pagination: '.swiper-pagination',
+	  //       slidesPerView: 3,
+	  //       centeredSlides: true,
+	  //       paginationClickable: true,
+	  //       spaceBetween: 20,
+	  //   });
+
+
+   //  $('#exampleModal').on('show.bs.modal', function () {
+   //  	console.log("skrr");
+
+   //  })
 
 
 
