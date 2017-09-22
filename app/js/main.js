@@ -152,25 +152,12 @@ $(document).ready(function() {
 
 
 	////////////////////////////////////////
-	//	Portfolio slider
+	//	Div window height
 	////////////////////////////////////////
 
-   // var mySwiper = new Swiper('.swiper-container', {
-	  //       pagination: '.swiper-pagination',
-	  //       slidesPerView: 3,
-	  //       centeredSlides: true,
-	  //       paginationClickable: true,
-	  //       spaceBetween: 20,
-	  //   });
-
-
-   //  $('#exampleModal').on('show.bs.modal', function () {
-   //  	console.log("skrr");
-
-   //  })
-
-
-
+	$(".wh").height($(window).height());
+	console.log($(window).height());
+	console.log("skr");
 
 
 });
