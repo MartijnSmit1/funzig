@@ -12,6 +12,7 @@
 
 
 // btn
+.btn,
 .btn-primary
 	padding: 20px 40px
 	background: none
@@ -20,8 +21,14 @@
 		weight: bold
 		size: 20px
 
+	-webkit-transition: all 0.15s;
+	-moz-transition: all 0.15s;
+	-o-transition: all 0.15s;
+	transition: all 0.15s;
+
 	-webkit-box-shadow: inset 0px -5px 0px 0px $green;
 	-moz-box-shadow: inset 0px -5px 0px 0px $green;
+	-o-box-shadow: inset 0px -5px 0px 0px $green;
 	box-shadow: inset 0px -5px 0px 0px $green;
 
 	&.white
@@ -36,6 +43,11 @@
 	    background-color: transparent
 	    border-color: transparent
 
+
+
 // form
 .form-control
 	padding: 15px 20px
+	
+button
+	cursor: pointer

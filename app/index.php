@@ -34,11 +34,13 @@
 		</div>
 	</div>
 </div>
-<div id="wrapper-about-us" class="wrapper cover" style="background-image: url(img/hannah.png)">
+<div id="wrapper-about-us" class="wrapper parallax cover" style="background-image: url(img/hannah.png)">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-12">
-				<h2 class="title text-center">over ons</h2>
+				<div class="center">
+					<h2 class="title">over ons</h2>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -52,7 +54,8 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img src="img/profile/sjaak.png" alt="">
+					<!-- <img src="img/profile/sjaak.png" alt=""> -->
+					<img src="http://static.webshopapp.com/shops/050729/files/024000679/450x450x2/pinda-jumbo-vers-gebrand-per-250-gram-verpakt.jpg" alt="">
 					<h3>sjaak</h3>
 					<h5>developer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
@@ -60,7 +63,8 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img src="img/profile/willem.png" alt="">
+					<!-- <img src="img/profile/liam.png" alt=""> -->
+					<img src="img/profile/liam.jpg" alt="">
 					<h3>liam</h3>
 					<h5>designer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
@@ -68,7 +72,8 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img src="img/profile/robbin.png" alt="">
+					<!-- <img src="img/profile/robbin.png" alt=""> -->
+					<img src="https://avatars0.githubusercontent.com/u/8747855?v=4&s=460" alt="">
 					<h3>robbin</h3>
 					<h5>designer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
@@ -95,9 +100,8 @@
 					1014 AN Amsterdam</br>
 				</p>
 				<p>
-					<a href="mailto:info@funzigedesigns.com?Subject=FD website form" target="_top">info@funzigedesigns.com</a></br>
-					075-93612569219</br>
-					020 850 95 00</br>
+					<a href="mailto:info@funzigedesigns.com"><i class="ion-ios-email icon-inline"></i>info@funzigedesigns.com</a></br>
+					<a href="tel:072 511 3951"><i class="ion-ios-telephone icon-inline"></i>072 511 3951</a>
 				</p>
 			</div>
 			<div class="col-sm-12 col-md-6">
@@ -124,8 +128,8 @@
 					<div class="form-group">
 					    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
 					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
-					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary hvr-sweep-to-top">Submit</button>
+					<button type="reset" class="btn btn-primary hvr-sweep-to-top">clear</button>
 				</form>
 			</div>
 		</div>

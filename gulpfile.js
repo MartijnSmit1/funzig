@@ -10,7 +10,6 @@ var sass            = require('gulp-sass');
 var autoprefixer    = require('gulp-autoprefixer');
 
 
-
 // HTML
 gulp.task('html', function(){
     gulp.src('app/**/*.html')
@@ -38,6 +37,10 @@ gulp.task('sass', function(){
     .pipe(reload({stream:true}));
 });
 
+// Sass watch
+gulp.task('sass:watch', function () {
+  gulp.watch('./sass/**/*.scss', ['sass']);
+});
 
 
 // JS

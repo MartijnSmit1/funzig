@@ -40,7 +40,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<a href="#wrapper-service"class="logo"><img src="img/logo/funzigedesigns.svg" alt=""></a>
+					<a href="#top"class="logo"><img src="img/logo/funzigedesigns.svg" alt=""></a>
 					<nav class="has-sub-hover">
 						<?php include"nav.php" ?>
 					</nav>
@@ -51,6 +51,7 @@
 
 	<div id="header-mobile">
 		<i class="nav-mobile-toggle ion-navicon-round"></i>
+		<a href="#top"class="logo"><img src="img/logo/funzigedesigns.svg" alt=""></a>
 	</div>
 	
 	<div id="nav-mobile-container">

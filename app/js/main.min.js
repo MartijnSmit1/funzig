@@ -116,38 +116,7 @@ $(document).ready(function() {
 	//	Parallax
 	////////////////////////////////////////
 
-
-    var parallax = document.querySelectorAll(".parallax"),
-        speed = 0.6;
-
-    window.onscroll = function(){
-        [].slice.call(parallax).forEach(function(el,i){
-
-            var windowYOffset = window.pageYOffset,
-                elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
-
-            el.style.backgroundPosition = elBackgrounPos;
-
-        });
-    };
-
-
-
-
-
-	////////////////////////////////////////
-	//	Portfolio fade in
-	////////////////////////////////////////
-
-	wow = new WOW 	({
-						boxClass:     'k',      // default
-						animateClass: 'animated', // default
-						offset:       0,          // default
-						mobile:       true,       // default
-						live:         true        // default
-					});
-
-	new WOW().init();
+	
 
 
 
@@ -155,9 +124,10 @@ $(document).ready(function() {
 	//	Div window height
 	////////////////////////////////////////
 
-	$(".wh").height($(window).height());
+	// $(".wh").css({"min-height:" + $(window).height()});
+	$(".wh").css({ minHeight: $(window).height()});
+
 	console.log($(window).height());
-	console.log("skr");
 
 
 });
