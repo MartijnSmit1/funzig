@@ -5,7 +5,7 @@
 			<div class="col-12 col-md-8 col-sm-push-2">
 				<img src="img/logo/funzigedesigns.svg" altP="" class="logo">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ut, animi. A, impedit. Delectus quaerat molestiae numquam laudantium repudiandae aliquid culpa aut ducimus, quod dignissimos sequi cupiditate mollitia perferendis consectetur!
+					Wij zijn Funzige Designs! Wat voor ons belangrijk is, is een functionele website neerzetten met een goed design. Bent u opzoek naar een FUNctionele website, maar heeft u geen idee waar u moet beginnen? Dan bent u bij ons aan het juiste adres.				
 				</p>
 				<a class="btn btn-primary white hvr-sweep-to-top" href="#wrapper-portfolio" role="button">portfolio</a>
 				<a class="btn btn-primary white hvr-sweep-to-top" href="#wrapper-contact" role="button">contact</a>
@@ -16,14 +16,16 @@
 <div id="wrapper-portfolio" class="wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12 col-lg-6">
+			<div class="col-12 col-lg-6">
 				<h2 class="title">Portfolio</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis tempora doloribus ratione commodi earum sequi nihil, suscipit consectetur. Molestias cupiditate facere aut quibusdam neque laboriosam incidunt modi dolorum, fugiat veritatis.</p>
+				<p>
+					Hieronder kunt u een voorproefje bezichtigen. Dit is werk wat wij voorheen gemaakt hebben. Dit is ook een goede manier om eventuele inspiratie op te doen!
+				</p>
 				<a class="btn btn-primary hvr-sweep-to-top" href="#wrapper-contact" role="button">contact</a>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-12">
 				<ul class="portfolio-items">
 					<li class="portfolio-item"><a href=""><img src="img/portfolio/1.png" alt=""></a></li>
 					<li class="portfolio-item"><a href=""><img src="img/portfolio/2.png" alt=""></a></li>
@@ -37,7 +39,7 @@
 <div id="wrapper-about-us" class="wrapper" data-parallax="scroll">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-sm-12">
+			<div class="col-12">
 				<div class="center">
 					<h2 class="title">over ons</h2>
 				</div>
@@ -49,7 +51,9 @@
 					<img class="avatar" src="img/profile/willem.png" alt="">
 					<h3 class="name">willem</h3>
 					<h5 class="task">developer</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
+					<p>
+						Willem focust zich voornamelijk op de PHP (back-end in het algemeen). Ook houdt hij zich bezig met het ontwikkelen van Android Applicaties en daarnaast het omzetten van een visueel product naar een functioneel product.
+					</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
@@ -57,7 +61,9 @@
 					<img class="avatar" src="http://static.webshopapp.com/shops/050729/files/024000679/450x450x2/pinda-jumbo-vers-gebrand-per-250-gram-verpakt.jpg" alt="">
 					<h3 class="name">sjaak</h3>
 					<h5 class="task">developer</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
+					<p>
+						sjaak pls info
+					</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
@@ -65,7 +71,9 @@
 					<img class="avatar" src="http://20580.hosts.ma-cloud.nl/portfolio/links/PF-Portfolio.jpg" alt="">
 					<h3 class="name">liam</h3>
 					<h5 class="task">designer</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
+					<p>
+						Liam is erg visueel ingesteld en houdt zich veel bezig met het designen van de huisstijl in het algemeen. Verder ook het maken van prototypes. Enthousiaste leergierige jongen, die perfectionistische trekjes heeft.
+					</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
@@ -73,7 +81,9 @@
 					<img class="avatar" src="https://avatars0.githubusercontent.com/u/8747855?v=4&s=460" alt="">
 					<h3 class="name">robbin</h3>
 					<h5 class="task">designer</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
+					<p>
+						Robbin is geïnteresseerd in design en het omzetten van design naar een visueel product. Houdt zich graag bezig met de nieuwste technieken en staat open voor het leren van nieuwe dingen.
+					</p>
 				</div>
 			</div>
 		</div>
@@ -89,8 +99,7 @@
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at urna a nunc pharetra suscipit. Vestibulum luctus diam sit amet sapien gravida, in varius augue pretium.
-					Aenean et ligula odio.
+					Zoals u al misschien eerder had gelezen, is het voor ons belangrijk om een functionele website bij u achter te laten, met daarnaast een goed design. Onze target is voornamelijk MKB’ers en Start-Ups, die nog niet zo goed weten wat voor een website zij willen. Hierbij kunnen wij u begeleiden en komen wij samen tot het beste eindresultaat. 
 				</p>
 				<p>
 					Contactweg 36,</br>

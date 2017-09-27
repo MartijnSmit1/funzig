@@ -139,8 +139,7 @@ $(document).ready(function() {
 	//	Div window height
 	////////////////////////////////////////
 
-	// $(".wh").css({"min-height:" + $(window).height()});
-	$(".wh").css({ minHeight: $(window).height()});
+	$(".wh").css({ minHeight: $(window).height() - $("#header-fix").height()});
 
 
 
