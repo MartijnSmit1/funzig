@@ -1,1 +1,1 @@
-# Funzige Design website
+# Funzige Designs website
