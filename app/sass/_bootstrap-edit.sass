@@ -3,6 +3,7 @@
 //	Bootstrap edit
 ////////////////////////////////////////
 
+// btn
 .btn
 	border-radius: 0
 	border: none
@@ -11,7 +12,6 @@
 	margin: 30px 0
 
 
-// btn
 .btn,
 .btn-primary
 	padding: 20px 40px
@@ -31,6 +31,7 @@
 	-o-box-shadow: inset 0px -5px 0px 0px $green;
 	box-shadow: inset 0px -5px 0px 0px $green;
 
+
 	&.white
 		color: white
 
@@ -42,6 +43,23 @@
 	&:active
 	    background-color: transparent
 	    border-color: transparent
+
+
+
+.btn-danger
+	@extend .btn
+
+	-webkit-box-shadow: inset 0px -5px 0px 0px $red;
+	-moz-box-shadow: inset 0px -5px 0px 0px $red;
+	-o-box-shadow: inset 0px -5px 0px 0px $red;
+	box-shadow: inset 0px -5px 0px 0px $red;
+	
+	&:before
+		background: $red
+
+.btn:focus, .btn.focus
+	box-shadow: none
+	
 
 
 

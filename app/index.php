@@ -1,9 +1,9 @@
 <?php include"header.php" ?>
-<div id="wrapper-service" class="wrapper parallax cover wh center" style="background-image: url(img/hero.png)">
+<div id="wrapper-service" class="wrapper wh" data-parallax="scroll">
 	<div class="container">
 		<div class="row center">
 			<div class="col-12 col-md-8 col-sm-push-2">
-				<img src="img/logo/funzigedesigns.svg" alt="" class="logo">
+				<img src="img/logo/funzigedesigns.svg" altP="" class="logo">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ut, animi. A, impedit. Delectus quaerat molestiae numquam laudantium repudiandae aliquid culpa aut ducimus, quod dignissimos sequi cupiditate mollitia perferendis consectetur!
 				</p>
@@ -34,7 +34,7 @@
 		</div>
 	</div>
 </div>
-<div id="wrapper-about-us" class="wrapper parallax cover" style="background-image: url(img/hannah.png)">
+<div id="wrapper-about-us" class="wrapper" data-parallax="scroll">
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-sm-12">
@@ -46,36 +46,33 @@
 		<div class="row">
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img src="img/profile/willem.png" alt="">
-					<h3>willem</h3>
-					<h5>developer</h5>
+					<img class="avatar" src="img/profile/willem.png" alt="">
+					<h3 class="name">willem</h3>
+					<h5 class="task">developer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<!-- <img src="img/profile/sjaak.png" alt=""> -->
-					<img src="http://static.webshopapp.com/shops/050729/files/024000679/450x450x2/pinda-jumbo-vers-gebrand-per-250-gram-verpakt.jpg" alt="">
-					<h3>sjaak</h3>
-					<h5>developer</h5>
+					<img class="avatar" src="http://static.webshopapp.com/shops/050729/files/024000679/450x450x2/pinda-jumbo-vers-gebrand-per-250-gram-verpakt.jpg" alt="">
+					<h3 class="name">sjaak</h3>
+					<h5 class="task">developer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<!-- <img src="img/profile/liam.png" alt=""> -->
-					<img src="img/profile/liam.jpg" alt="">
-					<h3>liam</h3>
-					<h5>designer</h5>
+					<img class="avatar" src="http://20580.hosts.ma-cloud.nl/portfolio/links/PF-Portfolio.jpg" alt="">
+					<h3 class="name">liam</h3>
+					<h5 class="task">designer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
 				</div>
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<!-- <img src="img/profile/robbin.png" alt=""> -->
-					<img src="https://avatars0.githubusercontent.com/u/8747855?v=4&s=460" alt="">
-					<h3>robbin</h3>
-					<h5>designer</h5>
+					<img class="avatar" src="https://avatars0.githubusercontent.com/u/8747855?v=4&s=460" alt="">
+					<h3 class="name">robbin</h3>
+					<h5 class="task">designer</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, vel! Corrupti dicta temporibus, sint aliquam facere sunt, perspiciatis sequi sapiente. Officiis sunt, architecto quas doloremque ad, natus nemo. Nemo, similique.</p>
 				</div>
 			</div>
@@ -101,35 +98,36 @@
 				</p>
 				<p>
 					<a href="mailto:info@funzigedesigns.com"><i class="ion-ios-email icon-inline"></i>info@funzigedesigns.com</a></br>
-					<a href="tel:072 511 3951"><i class="ion-ios-telephone icon-inline"></i>072 511 3951</a>
 				</p>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<form>
 					<div class="row">
-						<div class="col-6">
+						<div class="col-12 col-lg-6">
 							<div class="form-group">
 								<input type="name" class="form-control" placeholder="Naam">
 							</div>
 						</div>
-						<div class="col-6">
+						<div class="col-12 col-lg-6">
 							<div class="form-group">
 								<input type="email" class="form-control" placeholder="Email">
 							</div>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-6">
+						<div class="col-12 col-lg-6">
 							<div class="form-group">
 								<input type="phonenumber" class="form-control" placeholder="Telefoonnummer">
 							</div>
 						</div>
 					</div>
 					<div class="form-group">
-					    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+					    <textarea class="form-control" rows="3" placeholder="Bericht"></textarea>
 					</div>
-					<button type="submit" class="btn btn-primary hvr-sweep-to-top">Submit</button>
-					<button type="reset" class="btn btn-primary hvr-sweep-to-top">clear</button>
+					<div class="buttons">
+						<button type="reset" class="btn btn-danger hvr-sweep-to-top">Anuleren</button>
+						<button type="submit" class="btn btn-primary hvr-sweep-to-top">Verzenden</button>
+					</div>
 				</form>
 			</div>
 		</div>

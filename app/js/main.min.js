@@ -110,13 +110,28 @@ $(document).ready(function() {
 
 
 
-
+	$("#nav-mobile-container nav a").click(function() {
+		navMobileClose();
+	});
 
 	////////////////////////////////////////
 	//	Parallax
 	////////////////////////////////////////
 
-	
+	$('#wrapper-service').parallax({imageSrc: 'img/hero.png'});
+	$('#wrapper-about-us').parallax({imageSrc: 'img/hannah.png'});
+
+
+
+
+
+	////////////////////////////////////////
+	//	Smooth scroll on anchors
+	////////////////////////////////////////
+
+
+
+
 
 
 
@@ -127,7 +142,6 @@ $(document).ready(function() {
 	// $(".wh").css({"min-height:" + $(window).height()});
 	$(".wh").css({ minHeight: $(window).height()});
 
-	console.log($(window).height());
 
 
 });

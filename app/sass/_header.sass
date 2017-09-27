@@ -1,4 +1,12 @@
 ////////////////////////////////////////
+//	Header fix
+////////////////////////////////////////
+
+#header-fix
+	height: 60px
+
+
+////////////////////////////////////////
 //	Nav desktop
 ////////////////////////////////////////
 
@@ -8,18 +16,19 @@
 	width: 100%
 
 
-	.logo img
-		float: left
-		height: 60px
-		padding: 10px 0
-		margin-right: 40px
+	.logo
+		position: absolute
+		display: block
+		width: 250px
+		background: $green
+		padding: 10px 20px
 
 	nav
+		margin-left: 250px
 
 		//
 		// first
 		//
-
 		a
 			padding: 0 40px
 			line-height: 60px
@@ -68,3 +77,5 @@
 	a:hover,
 	a:focus
 		color: $green
+
+

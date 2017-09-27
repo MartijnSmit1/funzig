@@ -38,9 +38,9 @@ gulp.task('sass', function(){
 });
 
 // Sass watch
-gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass']);
-});
+// gulp.task('sass:watch', function () {
+//   gulp.watch('./sass/**/*.scss', ['sass']);
+// });
 
 
 // JS
@@ -59,6 +59,7 @@ gulp.task('js', function(){
 gulp.task('watch', function(){
     gulp.watch('app/js/**/*.js', ['js'])
     gulp.watch('app/sass/**/*.sass', ['sass'])
+    gulp.watch('app/sass/**/*.scss', ['sass'])
     gulp.watch('app/**/*.html', ['html'])
     gulp.watch('app/**/*.php', ['php']);
 });
