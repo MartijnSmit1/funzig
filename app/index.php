@@ -27,10 +27,10 @@
 		<div class="row">
 			<div class="col-12">
 				<ul class="portfolio-items">
-					<li class="portfolio-item"><a href=""><img src="img/portfolio/1.png" alt=""></a></li>
-					<li class="portfolio-item"><a href=""><img src="img/portfolio/2.png" alt=""></a></li>
-					<li class="portfolio-item"><a href=""><img src="img/portfolio/3.png" alt=""></a></li>
-					<li class="portfolio-item"><a href=""><img src="img/portfolio/4.png" alt=""></a></li>
+					<li class="portfolio-item"><a href="http://www.steakalkmaar.nl/" target="_blank"><img src="img/portfolio/steakalkmaar.png" alt="Steak alkmaar website"></a></li>
+					<li class="portfolio-item"><a href="http://20580.hosts.ma-cloud.nl/portfolio/index.html" target="_blank"><img src="img/portfolio/liamtanis.png" alt="Liam tanis portfolio"></a></li>
+					<li class="portfolio-item"><a href="http://www.mts-events.nl/" target="_blank"><img src="img/portfolio/mts-events.png" alt=""></a></li>
+					<!-- <li class="portfolio-item"><a href="" target="_blank"><img src="img/portfolio/4.png" alt=""></a></li> -->
 				</ul>
 			</div>
 		</div>
@@ -58,11 +58,11 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img class="avatar" src="http://static.webshopapp.com/shops/050729/files/024000679/450x450x2/pinda-jumbo-vers-gebrand-per-250-gram-verpakt.jpg" alt="">
+					<img class="avatar" src="img/profile/sjaak.png" alt="">
 					<h3 class="name">sjaak</h3>
 					<h5 class="task">developer</h5>
 					<p>
-						sjaak pls info
+						Loading...
 					</p>
 				</div>
 			</div>
@@ -92,12 +92,12 @@
 <div id="wrapper-contact" class="wrapper">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-12">
 				<h2 class="title">contact</h2>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-12 col-md-6">
+			<div class="col-12 col-md-6 push-md-3">
 				<p>
 					Zoals u al misschien eerder had gelezen, is het voor ons belangrijk om een functionele website bij u achter te laten, met daarnaast een goed design. Onze target is voornamelijk MKB’ers en Start-Ups, die nog niet zo goed weten wat voor een website zij willen. Hierbij kunnen wij u begeleiden en komen wij samen tot het beste eindresultaat. 
 				</p>
@@ -109,6 +109,7 @@
 					<a href="mailto:info@funzigedesigns.com"><i class="ion-ios-email icon-inline"></i>info@funzigedesigns.com</a></br>
 				</p>
 			</div>
+			<?php /*
 			<div class="col-sm-12 col-md-6">
 				<form>
 					<div class="row">
@@ -139,6 +140,7 @@
 					</div>
 				</form>
 			</div>
+			*/ ?>
 		</div>
 	</div>
 </div>
