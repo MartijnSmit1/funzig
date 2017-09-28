@@ -106,7 +106,7 @@
 					1014 AN Amsterdam</br>
 				</p>
 				<p>
-					<a href="mailto:info@funzigedesigns.com"><i class="ion-ios-email icon-inline"></i>info@funzigedesigns.com</a></br>
+					<a href="mailto:14270@ma-web.nl"><i class="ion-ios-email icon-inline"></i>14270@ma-web.nl</a></br>
 				</p>
 			</div>
 			<?php /*
