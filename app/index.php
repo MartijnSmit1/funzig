@@ -3,7 +3,7 @@
 	<div class="container">
 		<div class="row center">
 			<div class="col-12 col-md-8 col-sm-push-2">
-				<img src="img/logo/funzigedesigns.svg" altP="" class="logo">
+				<img src="img/logo/funzigedesigns.png" altP="" class="logo">
 				<p>
 					Wij zijn Funzige Designs! Wat voor ons belangrijk is, is een functionele website neerzetten met een goed design. Bent u opzoek naar een FUNctionele website, maar heeft u geen idee waar u moet beginnen? Dan bent u bij ons aan het juiste adres.				
 				</p>
