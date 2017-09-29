@@ -5,7 +5,11 @@
 			<div class="col-12 col-md-8 col-sm-push-2">
 				<img src="img/logo/funzigedesigns.png" altP="" class="logo">
 				<p>
-					Wij zijn Funzige Designs! Wat voor ons belangrijk is, is een functionele website neerzetten met een goed design. Bent u opzoek naar een FUNctionele website, maar heeft u geen idee waar u moet beginnen? Dan bent u bij ons aan het juiste adres.				
+					Wij zijn Funzige Designs! Wat voor ons belangrijk is, is een functionele website neerzetten met een goed design.
+					Bent u opzoek naar een FUNctionele website, die gemakkelijk te onderhouden is in Wordpress? Maar heeft u geen idee waar u moet beginnen? Dan bent u bij ons aan het juiste adres.				
+				</p>
+				<p>
+					Bekijk ons portfolio, of neem direct contact met ons op!
 				</p>
 				<a class="btn btn-primary white hvr-sweep-to-top" href="#wrapper-portfolio" role="button">portfolio</a>
 				<a class="btn btn-primary white hvr-sweep-to-top" href="#wrapper-contact" role="button">contact</a>
@@ -48,7 +52,7 @@
 		<div class="row">
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img class="avatar" src="img/profile/willem.png" alt="">
+					<img class="avatar" src="img/profile/willem.jpg" alt="">
 					<h3 class="name">willem</h3>
 					<h5 class="task">developer</h5>
 					<p>
@@ -58,7 +62,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img class="avatar" src="img/profile/sjaak.png" alt="">
+					<img class="avatar" src="img/profile/sjaak.jpg" alt="">
 					<h3 class="name">sjaak</h3>
 					<h5 class="task">developer</h5>
 					<p>
@@ -71,7 +75,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img class="avatar" src="http://20580.hosts.ma-cloud.nl/portfolio/links/PF-Portfolio.jpg" alt="">
+					<img class="avatar" src="img/profile/liam.jpg" alt="">
 					<h3 class="name">liam</h3>
 					<h5 class="task">designer</h5>
 					<p>
@@ -81,7 +85,7 @@
 			</div>
 			<div class="col-12 col-sm-6 col-xl-3">
 				<div class="profile">
-					<img class="avatar" src="https://avatars0.githubusercontent.com/u/8747855?v=4&s=460" alt="">
+					<img class="avatar" src="img/profile/robbin.jpg" alt="">
 					<h3 class="name">robbin</h3>
 					<h5 class="task">designer</h5>
 					<p>
