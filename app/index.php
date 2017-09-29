@@ -62,7 +62,10 @@
 					<h3 class="name">sjaak</h3>
 					<h5 class="task">developer</h5>
 					<p>
-						Loading...
+						Sjaak focust zich voornamelijk op Front-end.
+						Maar heeft ook PHP vaardigheden. Ook houdt hij zich bezig met het ontwikkelen van Android Applicaties.
+						Verder is hij goed voor de teamgeest!
+
 					</p>
 				</div>
 			</div>
