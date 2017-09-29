@@ -9,7 +9,7 @@
 
 	<meta name="theme-color" content="#6eb257">
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
 
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
