@@ -102,8 +102,9 @@
 					Zoals u al misschien eerder had gelezen, is het voor ons belangrijk om een functionele website bij u achter te laten, met daarnaast een goed design. Onze target is voornamelijk MKB’ers en Start-Ups, die nog niet zo goed weten wat voor een website zij willen. Hierbij kunnen wij u begeleiden en komen wij samen tot het beste eindresultaat. 
 				</p>
 				<p>
-					Contactweg 36,</br>
-					1014 AN Amsterdam</br>
+					Contactweg 36, </br>
+					1014 AN Amsterdam </br>
+                    <a class="btn btn-primary white hvr-sweep-to-top" href="img/pdfs/vacature.pdf" target="_blank" role="button">Vacature - 2de Jaars MD</a>
 				</p>
 				<p>
 					<a href="mailto:14270@ma-web.nl"><i class="ion-ios-email icon-inline"></i>14270@ma-web.nl</a></br>
