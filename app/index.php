@@ -25,7 +25,6 @@
 				<p>
 					Hieronder kunt u een voorproefje bezichtigen. Dit is werk wat wij voorheen gemaakt hebben. Dit is ook een goede manier om eventuele inspiratie op te doen!
 				</p>
-				<a class="btn btn-primary hvr-sweep-to-top" href="#wrapper-contact" role="button">contact</a>
 			</div>
 		</div>
 		<div class="row">
@@ -93,6 +92,21 @@
 					</p>
 				</div>
 			</div>
+			<div class="col-12">
+				<div class="center">
+					<p class="vacature_text">
+                        <span class="vacature_heading">Kom jij ons Team versterken?</span>
+                        <br>
+                        <br>
+                        Ben jij een 2de Jaars Media Developer op het<br>
+                        MediaCollege Amsterdam? En wil jij ons team komen versterken?<br>
+                        Bekijk hieronder de beschikbare vacature en solliciteer nu!
+                        <br>
+                        <br>
+                        <a class="btn btn-primary white hvr-sweep-to-top btn-black" href="img/pdfs/vacature.pdf" target="_blank" role="button">Bekijk de Vacature</a>
+                    </p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -111,7 +125,6 @@
 				<p>
 					Contactweg 36, </br>
 					1014 AN Amsterdam </br>
-                    <a class="btn btn-primary white hvr-sweep-to-top" href="img/pdfs/vacature.pdf" target="_blank" role="button">Vacature - 2de Jaars MD</a>
 				</p>
 				<p>
 					<a href="mailto:14270@ma-web.nl"><i class="ion-ios-email icon-inline"></i>14270@ma-web.nl</a></br>
