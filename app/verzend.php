@@ -44,8 +44,8 @@ if ( !$message )
 
 // CREATE THE EMAIL
 $headers	= "Content-Type: text/plain; charset=iso-8859-1\n";
-$headers	.= "From: $name  <$email>\n";
-$recipient	= "wafelcool@gmail.com";
+$headers	= "From: $name  <$email>\n";
+$recipient	= "info@funzigedesigns.nl";
 $subject	= "Email via Contact-form";
 $message =
     "Contact gegevens:\n
@@ -61,5 +61,5 @@ Vragen/opmerkingen: \n" . wordwrap($message, 1024);
 mail($recipient, $subject, $message, $headers);
 
 // REDIRECT TO THE THANKS PAGE
-header("location: http://19940.hosts.ma-cloud.nl/contact-form/index.php");
+header("location: /");
 ?>
