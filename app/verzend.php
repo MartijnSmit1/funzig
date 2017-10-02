@@ -61,5 +61,5 @@ Vragen/opmerkingen: \n" . wordwrap($message, 1024);
 mail($recipient, $subject, $message, $headers);
 
 // REDIRECT TO THE THANKS PAGE
-header("location: http://19940.hosts.ma-cloud.nl/contact-form/index.php");
+header("location: /");
 ?>
