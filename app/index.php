@@ -1,8 +1,8 @@
 <?php include"header.php" ?>
-<div id="wrapper-service" class="wrapper wh" data-parallax="scroll">
+<div id="wrapper-service" class="wrapper wh center" data-parallax="scroll">
 	<div class="container">
-		<div class="row center">
-			<div class="col-12 col-md-8 col-sm-push-2">
+		<div class="row justify-content-center">
+			<div class="col-12 col-md-8">
 				<img src="img/logo/funzigedesigns.png" altP="" class="logo">
 				<p>
 					Wij zijn Funzige Designs! Wat voor ons belangrijk is, is een functionele website neerzetten met een goed design.
