@@ -126,9 +126,6 @@
 					Contactweg 36, </br>
 					1014 AN Amsterdam </br>
 				</p>
-				<p>
-					<a href="mailto:14270@ma-web.nl"><i class="ion-ios-email icon-inline"></i>14270@ma-web.nl</a></br>
-				</p>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<form action="verzend.php" method="post" name="form" id="form1">
