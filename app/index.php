@@ -118,28 +118,28 @@
 					<div class="row">
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="name" class="form-control" placeholder="Voornaam" name="voornaam">
+								<input type="name" class="form-control" placeholder="Voornaam" name="voornaam" id="voornaam">
 							</div>
 						</div>
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="name" class="form-control" placeholder="Achternaam" name="achternaam">
+								<input type="name" class="form-control" placeholder="Achternaam" name="achternaam" id="achternaam">
 							</div>
 						</div>
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Email" name="email">
+								<input type="email" class="form-control" placeholder="Email" name="email" id="email">
 							</div>
 						</div>
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="phonenumber" class="form-control" placeholder="Telefoonnummer" name="telefoon">
+								<input type="phonenumber" class="form-control" placeholder="Telefoonnummer" name="telefoon" id="telefoon">
 							</div>
 						</div>
 					</div>
 
 					<div class="form-group">
-					    <textarea class="form-control" rows="3" placeholder="Bericht" name="vragenopmerkingen"></textarea>
+					    <textarea class="form-control" rows="3" placeholder="Bericht" name="vragenopmerkingen" id="vragenopmerkingen"></textarea>
 					</div>
 					<div class="buttons">
 						<button type="reset" class="btn btn-danger hvr-sweep-to-top" name="reset">Anuleren</button>
