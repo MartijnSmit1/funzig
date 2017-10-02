@@ -130,38 +130,40 @@
 					<a href="mailto:14270@ma-web.nl"><i class="ion-ios-email icon-inline"></i>14270@ma-web.nl</a></br>
 				</p>
 			</div>
-			<?php /*
 			<div class="col-sm-12 col-md-6">
-				<form>
+				<form action="verzend.php" method="post" name="form" id="form1">
 					<div class="row">
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="name" class="form-control" placeholder="Naam">
+								<input type="name" class="form-control" placeholder="Voornaam" name="voornaam">
 							</div>
 						</div>
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Email">
+								<input type="name" class="form-control" placeholder="Achternaam" name="achternaam">
 							</div>
 						</div>
-					</div>
-					<div class="row">
 						<div class="col-12 col-lg-6">
 							<div class="form-group">
-								<input type="phonenumber" class="form-control" placeholder="Telefoonnummer">
+								<input type="email" class="form-control" placeholder="Email" name="email">
+							</div>
+						</div>
+						<div class="col-12 col-lg-6">
+							<div class="form-group">
+								<input type="phonenumber" class="form-control" placeholder="Telefoonnummer" name="telefoon">
 							</div>
 						</div>
 					</div>
+
 					<div class="form-group">
-					    <textarea class="form-control" rows="3" placeholder="Bericht"></textarea>
+					    <textarea class="form-control" rows="3" placeholder="Bericht" name="vragenopmerkingen"></textarea>
 					</div>
 					<div class="buttons">
-						<button type="reset" class="btn btn-danger hvr-sweep-to-top">Anuleren</button>
-						<button type="submit" class="btn btn-primary hvr-sweep-to-top">Verzenden</button>
+						<button type="reset" class="btn btn-danger hvr-sweep-to-top" name="reset">Anuleren</button>
+						<button type="submit" class="btn btn-primary hvr-sweep-to-top" name="submit">Verzenden</button>
 					</div>
 				</form>
 			</div>
-			*/ ?>
 		</div>
 	</div>
 </div>
