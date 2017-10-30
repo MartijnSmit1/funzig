@@ -156,7 +156,7 @@
 					    <textarea class="form-control" rows="3" placeholder="Bericht" name="vragenopmerkingen" id="vragenopmerkingen"></textarea>
 					</div>
 					<div class="buttons">
-						<button type="reset" class="btn btn-danger hvr-sweep-to-top" name="reset">Anuleren</button>
+						<button type="reset" class="btn btn-danger hvr-sweep-to-top" name="reset">Annuleren</button>
 						<button type="submit" class="btn btn-primary hvr-sweep-to-top" name="submit">Verzenden</button>
 					</div>
 				</form>
